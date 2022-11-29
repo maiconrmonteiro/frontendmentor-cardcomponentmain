@@ -45,7 +45,7 @@ main {
 }
 
 .detalhes-produto h2 {
-    padding-right: 10px;
+    padding-right: 40px;
     color: hsl(212, 21%, 14%);
     font-family: 'Fraunces', serif;
     font-size: 1.8rem;
@@ -59,6 +59,7 @@ main {
 .detalhes-produto p {
     font-family: 'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%);
+    padding-right: 8px;
     font-size: 13px;
     line-height: 17px;
     margin-bottom: 15px;
