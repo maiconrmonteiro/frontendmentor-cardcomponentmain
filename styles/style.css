@@ -23,8 +23,13 @@ main {
     border-radius: 10px 0px 0px 10px ;
 }
 
+.foto-produto {
+    width: 50vw;
+}
+
 .detalhes-produto {
-    padding-left: 30px;
+    width: 50vw;
+    padding: 30px;
 }
 
 .detalhes-produto .description-titulo {
@@ -32,13 +37,53 @@ main {
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 3px;
-    
+    margin-bottom: 15px;
 }
 
 .detalhes-produto h2 {
+    color: hsl(212, 21%, 14%);
     font-family: 'Fraunces', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 33px;
+    margin-bottom: 15px;
 }
 
 .detalhes-produto p {
     font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 15px;
+}
+
+.preco-desconto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.preco-desconto p {
+    transform: translateY(7px);
+    text-decoration: line-through;
+}
+
+.preco-desconto spam {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: hsl(158, 36%, 37%);
+    margin-right: 18px;
+}
+
+
+
+.btn button {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-weight: 700;
 }
